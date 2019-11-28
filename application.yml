@@ -1,0 +1,18 @@
+﻿spring:
+  profiles:
+    active:  #启用dev环境
+    - dev
+---
+spring:
+  profiles: dev     #开发环境
+  application: 
+    name: microservicecloud-config-cq-dev #给开发环境的命名，这是springboot自带的
+---
+spring:
+  profiles: test   #测试环境
+  application: 
+    name: microservicecloud-config-cq-test  #给测试环境的命名，这是springboot自带的
+
+ 
+ 
+
